@@ -1,0 +1,10 @@
+title: Lembar Pertama
+description: Cerita-cerita yang ditulis pelan-pelan.
+lang: id
+url: "https://aileenlady25-dev.github.io"
+baseurl: "/lembarpertama"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
