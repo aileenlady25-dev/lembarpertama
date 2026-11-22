@@ -8,3 +8,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+collections:
+  lembar:
+    output: true
+    permalink: /lembar/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "lembar"
+    values:
+      layout: episode
