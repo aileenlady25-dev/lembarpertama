@@ -91,3 +91,18 @@ hr::after {
   border-top: 1px solid var(--line);
   font-family: "DM Sans", sans-serif;
 }
+.serial-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.serial-card h3 { margin: 0 0 0.25rem; }
+.serial-count {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.85rem;
+  color: var(--sage);
+  margin: 0 0 0.75rem;
+}
+.serial-card ul { margin: 0; padding-left: 1.2rem; }
+.serial-card li { margin: 0.3rem 0; }
