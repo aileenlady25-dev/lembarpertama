@@ -67,3 +67,27 @@ hr::after {
   color: var(--gold);
   letter-spacing: 0.6em;
 }
+.ep-head { margin-bottom: 2rem; }
+.ep-serial {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sage);
+  margin: 0 0 0.5rem;
+}
+.ep-head h1 { margin: 0 0 0.5rem; font-size: 2rem; }
+.ep-meta {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  color: var(--sage);
+  margin: 0;
+}
+.ep-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-family: "DM Sans", sans-serif;
+}
