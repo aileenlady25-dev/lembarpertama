@@ -4,8 +4,10 @@ layout: default
 {% assign eps = site.lembar | where: "serial", page.serial | sort: "episode" %}
 {% for ep in eps %}
   {% if ep.url == page.url %}
-    {% unless forloop.first %}{% assign prev = eps[forloop.index0 | minus: 1] %}{% endunless %}
-    {% unless forloop.last %}{% assign next = eps[forloop.index0 | plus: 1] %}{% endunless %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% unless forloop.first %}{% assign prev = eps[prev_i] %}{% endunless %}
+    {% unless forloop.last %}{% assign next = eps[next_i] %}{% endunless %}
   {% endif %}
 {% endfor %}
 
